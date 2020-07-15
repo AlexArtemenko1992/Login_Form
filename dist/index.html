@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/5615e0f847.js" crossorigin="anonymous"></script>
+  <title>Log in</title>
+<link href="./style.css" rel="stylesheet"></head>
+
+<body>
+  <div class="login-page-wrapper"></div>
+  <div class="login-page-background">
+    <header class="login-page-header">
+      <div class="header-logo-wrapper">
+        <a href="#" class="header-logo">Welcome to my App</a>
+      </div>
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active login" data-toggle="pill" href="#pills-home" aria-controls="pills-home"
+            aria-selected="true">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link signup" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+            aria-controls="pills-profile" aria-selected="false">Sign up</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="login-page-wrap">
+
+      <div class="card-body">
+        <h4 class="card-title">Please Login</h4>
+        <form name="loginForm">
+          <div class="form-group group-wrapper">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control email" id="email" aria-describedby="emailHelp"
+              placeholder="Enter email" data-required="email"
+              data-invalid-message="Please provide valid email example@example.com">
+          </div>
+          <div class="form-group group-wrapper">
+            <label for="password">Password</label>
+            <input type="password" class="form-control password" id="password" placeholder="Password"
+              data-required="password" />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="card-body-registration d-none">
+        <h4 class="card-title">Registration</h4>
+        <form name="loginForm" class="loginForm">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="reg-email" aria-describedby="emailHelp"
+              placeholder="Enter email" data-required="email"
+              data-invalid-message="Please provide valid email example@example.com">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="reg-password" placeholder="Password"
+              data-required="password" data-invalid-message="Please provide valid password" />
+          </div>
+          <div class="form-group">
+            <label for="nickname">Nickname</label>
+            <input type="text" class="form-control" id="reg-nickname" placeholder="Nickname" data-required="nickname"
+              data-invalid-message="Please provide valid nickname" />
+          </div>
+          <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" class="form-control" id="reg-firstName" placeholder="First name"
+              data-required="firstName" data-invalid-message="Please provide valid first name" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last name</label>
+            <input type="text" class="form-control" id="reg-lastName" placeholder="Last name" data-required="lastName"
+              data-invalid-message="Please provide valid email last name" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Phone</label>
+            <input type="number" class="form-control" id="reg-phone" placeholder="Phone" data-required="phone"
+              data-invalid-message="Please provide valid phone number" />
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="reg-city" placeholder="City" data-required="city"
+              data-invalid-message="Please provide valid city name" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Country</label>
+            <input type="text" class="form-control" id="reg-country" placeholder="Country" data-required="country"
+              data-invalid-message="Please provide valid country" />
+          </div>
+          <div class="form-group check-form">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="male" value="male" checked>
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female" value="female">
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="dateBirth">Date birth</label>
+            <input type="date" class="form-control" id="dateBirth" placeholder="dateBirth" data-required="dateBirth"
+              data-invalid-message="Please provide valid city name" />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+<script type="text/javascript" src="polyfill.3918f406149a01abaab8.js"></script><script type="text/javascript" src="app.3918f406149a01abaab8.js"></script></body>
+
+</html>
