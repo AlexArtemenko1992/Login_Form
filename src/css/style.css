@@ -230,8 +230,8 @@
 
   .email,
   .password {
-    padding: 3px 10px !important;
-    font-size: 9px;
+    padding: 5px 10px !important;
+    font-size: 13px;
   }
 
   .btn {
@@ -245,8 +245,8 @@
   }
 
   .loginForm input {
-    padding: 3px 10px !important;
-    font-size: 10px !important;
+    padding: 5px 10px !important;
+    font-size: 13px !important;
   }
 
   .notify-container {
