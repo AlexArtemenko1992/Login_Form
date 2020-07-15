@@ -211,7 +211,7 @@
   }
 
   .card-body {
-    width: 300px;
+    width: 90% !important;
     padding: 15px;
   }
 
